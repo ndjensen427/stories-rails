@@ -57,8 +57,7 @@
 
 #menu {
   	display: none;
-    width: 25%;
-  	float: left;
+    width: 100%;
 }
 
 #menu li {
