@@ -16,13 +16,18 @@
       </div>
       <div id="menu">
     <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
+      <li><%= link_to 'Home', '/' %></li>
+      <li><%= link_to 'About', 'about' %></li>
       <li><a href="#">Contact</a></li>
     </ul>
   </div>
     </div>
     <%= yield %>
+    <div class="footer">
+      <h3>
+        A Shutterbugg Project
+      </h3>
+    </div>
   </div>
 <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 </body>
