@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  menu_open = false;
+  menu_open = $('#button').val() == 'Close Menu';
   $('#button').click(function() {
     $('#menu').toggle(function(){
         if(menu_open) {
